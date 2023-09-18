@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdd7d5ecf944ef4fa7ee08f3813efd0, type: 3}
+  m_Name: Treser Weapon
+  m_EditorClassIdentifier: 
+  id: Treser Weapon
+  prefab_Weapon: {fileID: 4100558944522715610, guid: bd2a45e68a99d2a4c8dc7ffa3a91089c, type: 3}
+  weaponData: {fileID: 11400000, guid: 81d65c2b0deb71545b0734c99b3ba64d, type: 2}

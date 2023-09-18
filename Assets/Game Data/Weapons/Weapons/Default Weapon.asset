@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d735f3a297b27f48b4dd9d6a75f1ac4, type: 3}
-  m_Name: Tracer weapon
+  m_Script: {fileID: 11500000, guid: 4cdd7d5ecf944ef4fa7ee08f3813efd0, type: 3}
+  m_Name: Default Weapon
   m_EditorClassIdentifier: 
-  id: Trecer Weapon
-  bulletsPerBurst: 1
-  fireRate: 0
-  coolDown: 0.25
-  bulletSpeed: 15
+  id: Default
+  prefab_Weapon: {fileID: 4100558944522715610, guid: c6600f9f2a26cba4a82161a81a4a772e, type: 3}
+  weaponData: {fileID: 11400000, guid: b57832dfb53752847bc82b7a0ff4f960, type: 2}

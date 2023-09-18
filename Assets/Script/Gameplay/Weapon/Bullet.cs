@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
 
     private void OnEnable()
     {
-        Invoke("Dispose", 2);
+        Invoke("Dispose", 1);
     }
 
     private void OnTriggerEnter(Collider other)

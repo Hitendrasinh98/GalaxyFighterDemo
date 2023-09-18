@@ -4,7 +4,6 @@ using UnityEngine;
 
 public interface IBaseWeapon 
 {
-    public string Id { get; }
     void Shoot();
     So_WeaponData WeaponData { get; }
 

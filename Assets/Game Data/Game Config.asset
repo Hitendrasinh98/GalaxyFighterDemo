@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c8da8cdd3dbde247bddf6d316ef8011, type: 3}
-  m_Name: Weapon Registery
+  m_Script: {fileID: 11500000, guid: e677ddbd42a00f44e84d8125ead0ed2d, type: 3}
+  m_Name: Game Config
   m_EditorClassIdentifier: 
+  defaultMovementData: {fileID: 11400000, guid: 99ec3c40470241048ad40ff101c02fd2, type: 2}
   defaultWeapon: {fileID: 11400000, guid: 1af2cb446f363e7459f9fdfcdb2b4c89, type: 2}
-  availableWeapons:
-  - {fileID: 11400000, guid: 55a23ae3ce4f9344e86c5b50665f465f, type: 2}
-  - {fileID: 11400000, guid: f48b1a5f574f9d1498460d6ec0f927df, type: 2}

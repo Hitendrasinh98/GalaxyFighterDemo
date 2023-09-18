@@ -9,11 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d735f3a297b27f48b4dd9d6a75f1ac4, type: 3}
-  m_Name: _Default Weapon
+  m_Script: {fileID: 11500000, guid: 25643c98613aef944a256119f3f790a1, type: 3}
+  m_Name: Super Movement
   m_EditorClassIdentifier: 
-  id: Default
-  bulletsPerBurst: 3
-  fireRate: 0.1
-  coolDown: 1
-  bulletSpeed: 15
+  rotationSpeed: 350
+  maxSpeed: 6
+  accelerationRate: 10
+  decelerationRate: 5

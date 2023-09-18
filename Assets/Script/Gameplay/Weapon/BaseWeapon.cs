@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class BaseWeapon : MonoBehaviour, IBaseWeapon
 {
-    [SerializeField] So_WeaponData weaponData;
     [SerializeField] Transform[] shootPoints;
 
     private float lastFireTime;
     private bool isBursting;
 
- 
+    private So_WeaponData weaponData;
 
+    public void InitiazeWeaponData(So_WeaponData weaponData) => this.weaponData = weaponData;
+    
     public void Shoot()
     {
         if (isBursting)
@@ -49,5 +50,4 @@ public class BaseWeapon : MonoBehaviour, IBaseWeapon
     So_WeaponData IBaseWeapon.WeaponData => weaponData;
     GameObject IBaseWeapon.gameObject => gameObject;
 
-    public string Id => weaponData.id;
 }

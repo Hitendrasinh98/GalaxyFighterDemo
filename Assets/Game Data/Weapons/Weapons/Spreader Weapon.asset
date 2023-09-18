@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d735f3a297b27f48b4dd9d6a75f1ac4, type: 3}
+  m_Script: {fileID: 11500000, guid: 4cdd7d5ecf944ef4fa7ee08f3813efd0, type: 3}
   m_Name: Spreader Weapon
   m_EditorClassIdentifier: 
   id: Spreader Weapon
-  bulletsPerBurst: 1
-  fireRate: 0
-  coolDown: 0.5
-  bulletSpeed: 30
+  prefab_Weapon: {fileID: 3952034819852638862, guid: cbff858ffa991e9458623c041abf0813, type: 3}
+  weaponData: {fileID: 11400000, guid: fc546182d5a766c418daf78f5f682ccf, type: 2}
