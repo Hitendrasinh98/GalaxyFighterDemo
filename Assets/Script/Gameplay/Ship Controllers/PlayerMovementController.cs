@@ -24,11 +24,12 @@ public class PlayerMovementController : MonoBehaviour ,IPowerUp
     private void Start()
     {
         playerManager = GetComponent<PlayerManager>();
-        Register_PowerUpListners();
-        defaultMovementData = playerManager.GetGameManager().GetDefaultMovementData();
-        SwitchMovementData(defaultMovementData);
         rb = GetComponent<Rigidbody2D>();
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
+        defaultMovementData = playerManager.GetGameManager().GetDefaultMovementData();
+
+        Register_PowerUpListners();
+        SwitchMovementData(defaultMovementData);
     }
 
 

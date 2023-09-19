@@ -4,9 +4,24 @@ using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
-    public PowerUpType powerType;
-    public ScriptableObject associatedData;
-    public int duration;
+    [SerializeField] PowerUpType powerType;
+    [SerializeField] ScriptableObject associatedData;
+    [SerializeField] int duration;
 
 
+    public System.Action OnDestroyEvent;
+
+
+    public PowerUpType PowerUpType => powerType;
+    public ScriptableObject AssociatedData => associatedData;
+    public int Duration => duration;
+
+
+    private void OnDestroy()
+    {
+        OnDestroyEvent?.Invoke();
+    }
+
+
+    
 }

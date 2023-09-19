@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83fbbd1dce65a48468581edc30a82312, type: 3}
   m_Name: PowerUp Registry
   m_EditorClassIdentifier: 
-  availablePowers: []
+  minDuration: 5
+  maxDuration: 10
+  spawnInterval: 20
+  availablePowers:
+  - {fileID: 4837279217793463161, guid: 3611d34e63d762b4dbd561257462c3a3, type: 3}
+  - {fileID: 2125185998230035777, guid: bef89c2422049474c9fdbdc335005ee1, type: 3}

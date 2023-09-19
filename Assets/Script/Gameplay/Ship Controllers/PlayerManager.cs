@@ -28,12 +28,12 @@ public class PlayerManager : MonoBehaviour
     void CheckPowerUp(PowerUp newPowerUp)
     {
         bool didWeFindPowerUp = false;
-        print("Active Listerner Count: " + powerUpListners.Count + " ,searching for  :" + newPowerUp.powerType);
+        print("Active Listerner Count: " + powerUpListners.Count + " ,searching for  :" + newPowerUp.PowerUpType);
 
         for (int i = 0; i < powerUpListners.Count; i++)
         {
             print("Active Listerner : " + powerUpListners[i].powerType);
-            if (powerUpListners[i].powerType == newPowerUp.powerType)
+            if (powerUpListners[i].powerType == newPowerUp.PowerUpType)
             {
                 print("foudn the power Match ");
                 ActivatePower(powerUpListners[i], newPowerUp);
@@ -50,8 +50,8 @@ public class PlayerManager : MonoBehaviour
     {
         DeactivatePower();
         activePowerUp = targetComponent;
-        activePowerUp.ActivatePower(power.associatedData);
-        Invoke("DeactivatePower", power.duration);
+        activePowerUp.ActivatePower(power.AssociatedData);
+        Invoke("DeactivatePower", power.Duration);
     }
 
     void DeactivatePower()
